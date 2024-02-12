@@ -3,3 +3,7 @@ This is code running on my raspberry pi zero with a DHT22 sensor. It reads tempe
 The DHT22 is supplied from raspberry and connected to the pin 4.
 There is a 1k resistor between pins 1 (VCC) and 2 (DATA) of the sensor.
 There is also a waveshare UPS hat connected. Comunication with UPS uses I2C which must be enabled using <code>raspi-config</code>
+
+I am using <code>nohup python3 dht22Log.py &</code> to start the script.
+
+There must be <code> secret.py </code> file containing <code>key="xxxxxx"</code> wih correct thingspeak API key
