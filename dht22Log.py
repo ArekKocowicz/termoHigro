@@ -1,5 +1,5 @@
 import time, os, sys, urllib.request, Adafruit_DHT, smbus
-import secret.py
+import secret
 
 key=secret.key
 baseURL="https://api.thingspeak.com/update?api_key=%s" % key
